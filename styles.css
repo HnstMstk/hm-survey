@@ -1,9 +1,9 @@
 /* fonts are self-hosted so the survey looks the same everywhere */
-@font-face{font-family:"Inter Tight";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/inter-tight-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Inter Tight";font-style:normal;font-weight:600;font-display:swap;src:url(fonts/inter-tight-latin-600-normal.woff2) format("woff2")}
-@font-face{font-family:"Inter Tight";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/inter-tight-latin-700-normal.woff2) format("woff2")}
-@font-face{font-family:"Inter Tight";font-style:normal;font-weight:900;font-display:swap;src:url(fonts/inter-tight-latin-900-normal.woff2) format("woff2")}
-@font-face{font-family:"Archivo";font-style:italic;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url(fonts/archivo-latin-wdth-italic.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-style:normal;font-weight:400;font-display:swap;src:url(inter-tight-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-style:normal;font-weight:600;font-display:swap;src:url(inter-tight-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-style:normal;font-weight:700;font-display:swap;src:url(inter-tight-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-style:normal;font-weight:900;font-display:swap;src:url(inter-tight-latin-900-normal.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-style:italic;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url(archivo-latin-wdth-italic.woff2) format("woff2")}
 /* HONEST MISTAKE — survey styles. Phone-first, brand colours from the manual. */
 :root{
   --brown:#2c0400;
@@ -48,7 +48,7 @@ img{display:block;max-width:100%}
 @media (prefers-reduced-motion:reduce){.screen{animation:none}}
 
 /* textured red screens */
-.screen.red{background:var(--red) url(images/bg-texture.jpg) center/cover;}
+.screen.red{background:var(--red) url(bg-texture.jpg) center/cover;}
 
 /* ---------- header ---------- */
 .hdr{
@@ -204,7 +204,7 @@ textarea:focus,input:focus{border-color:var(--brown)}
 
 /* about-you stickers */
 /* about-you screens: background exported straight from the Canva page (earrings + text at their Canva opacity) */
-.screen.about{background:var(--cream) url(images/bg-about.jpg) top center/100% auto no-repeat}
+.screen.about{background:var(--cream) url(bg-about.jpg) top center/100% auto no-repeat}
 .about .opts{position:relative;z-index:2}
 .about .body,.about .foot{position:relative;z-index:2}
 
@@ -216,7 +216,7 @@ textarea:focus,input:focus{border-color:var(--brown)}
 .red .btn{border-color:var(--ink);background:var(--cream);color:var(--brown)}
 .red .btn.dark{background:var(--brown);color:#fff;border-color:var(--brown)}
 /* thank-you screen: background exported straight from the Canva page (texture + bangle) */
-.screen.red.thanks{background:url(images/bg-thanks.jpg) top center/100% auto no-repeat, var(--red) url(images/bg-texture.jpg) center/cover}
+.screen.red.thanks{background:url(bg-thanks.jpg) top center/100% auto no-repeat, var(--red) url(bg-texture.jpg) center/cover}
 .thanks .spacer{height:calc(min(100vw, 430px) * 1.2506 - 136px);flex:none}
 .thanks h2{font-size:32px;line-height:1.06;font-weight:900;color:var(--ink);margin-top:36px;padding:0 36px}
 .thanks p{font-size:14px;line-height:1.4;color:var(--cream);margin-top:12px;padding:0 36px;max-width:300px}
