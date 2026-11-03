@@ -29,7 +29,7 @@
 
   /* ---------- helpers ---------- */
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  const img = (f) => "images/" + f;
+  const img = (f) => f;
   function progress(step) {
     const total = 3 + N; // age, gender, 12 pieces, favs/access
     let p = 0;
