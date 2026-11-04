@@ -123,12 +123,12 @@ h1.q{font-size:24px;line-height:1.17;font-weight:700;margin-top:14px}
 /* ---------- product screen ---------- */
 .carousel{
   display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;
-  padding:0 var(--inset);scroll-padding:0 var(--inset);
+  padding:0 var(--pad);scroll-padding:0 var(--pad);
   scrollbar-width:none;margin-top:16px;
 }
 .carousel::-webkit-scrollbar{display:none}
 .slide{
-  flex:0 0 calc(100% - 2*var(--inset) + 0px);
+  flex:0 0 calc(100% - 2*var(--pad));
   aspect-ratio:294/362;scroll-snap-align:start;
   background:var(--brown);overflow:hidden;
 }
@@ -138,10 +138,10 @@ h1.q{font-size:24px;line-height:1.17;font-weight:700;margin-top:14px}
 .dots i{width:8px;height:8px;border-radius:50%;background:#fff;opacity:.5;transition:opacity .2s}
 .dots i.on{opacity:1}
 .swipe-hint{font-size:11px;text-align:center;margin-top:12px;opacity:.7}
-.pinfo{padding:18px var(--inset) 0}
+.pinfo{padding:16px var(--pad) 0}
 .pinfo .name{font-size:15px}
-.pinfo .desc{font-size:16px;line-height:1.4;margin-top:4px}
-.ask{font-size:20px;font-weight:700;text-align:center;margin:26px 0 14px}
+.pinfo .desc{font-size:14px;line-height:1.4;margin-top:10px}
+.ask{font-size:16px;font-weight:700;text-align:center;margin:18px 0 10px}
 
 /* mini piece row on follow-up screens */
 .mini{display:flex;align-items:center;gap:13px;margin-top:4px}
@@ -228,3 +228,11 @@ textarea:focus,input:focus{border-color:var(--brown)}
   .opt:hover{background:var(--brown);border-color:var(--brown);color:#fff}
   .opt:hover .s{color:#ffb3b3}
 }
+
+/* product screens: bigger photos, smaller question + buttons, more air under the name */
+.product .carousel{margin-top:8px}
+.product .slide{flex:0 0 calc(100% - 20px);aspect-ratio:294/362}
+.product .pinfo .desc{font-size:14px;margin-top:10px}
+.product .ask{font-size:16px;margin:16px 0 10px}
+.product .btns{gap:6px}
+.product .btn{height:38px;font-size:13px}
