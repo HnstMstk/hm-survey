@@ -15,6 +15,7 @@
   const BR_R = '<svg viewBox="0 0 9.417 64.242" aria-hidden="true"><path d="M0 61.7c3.24-9.16 5.27-17.51 5.27-29.58C5.27 19.98 3.24 11.7 0 2.47L2.28 0C6.83 9.01 9.42 20.42 9.42 32.12S6.83 55.3 2.28 64.24Z"/></svg>';
 
   /* ---------- state ---------- */
+  if (/[?&]reset\b/.test(location.search)) { try { localStorage.removeItem(STORE); } catch (e) {} }
   let S = load() || { answers: {}, history: ["welcome"], done: false };
   function save() { try { localStorage.setItem(STORE, JSON.stringify(S)); } catch (e) {} }
   function load() { try { return JSON.parse(localStorage.getItem(STORE)); } catch (e) { return null; } }
