@@ -61,7 +61,7 @@ window.HM = {
       prices: { silver: ["EGP 4,000 – 5,500", "EGP 5,500 – 7,000", "EGP 7,000 – 8,500"], plated: ["EGP 2,000 – 3,000", "EGP 3,000 – 4,000", "EGP 4,000 – 5,000"] } },
     { id: "p06", name: "Earring 1",  desc: "Hammered hoop · two loose rings",
       images: ["earring-1-1.jpg", "earring-1-2.jpg"],
-      prices: { silver: ["EGP 2,500 – 3,500", "EGP 3,500 – 4,500", "EGP 4,500 – 5,500"], plated: ["EGP 1,200 – 1,600", "EGP 1,600 – 2,000", "EGP 2,000 – 2,500"] } },
+      prices: { silver: ["EGP 4,000 – 5,500", "EGP 5,500 – 7,000", "EGP 7,000 – 8,500"], plated: ["EGP 2,000 – 3,000", "EGP 3,000 – 4,000", "EGP 4,000 – 5,000"] } },
     { id: "p07", name: "Ear Cuff 1", desc: "Raw texture · red stones · no piercing needed",
       images: ["ear-cuff-1-1.jpg", "ear-cuff-1-2.jpg"],
       prices: { silver: ["EGP 3,000 – 4,000", "EGP 4,000 – 5,000", "EGP 5,000 – 6,000"], plated: ["EGP 1,500 – 2,000", "EGP 2,000 – 2,500", "EGP 2,500 – 3,000"] } },
