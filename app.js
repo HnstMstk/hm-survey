@@ -112,7 +112,7 @@
   V.react = (i) => {
     const p = D.pieces[i], k = p.id + "_reaction", v = A(k);
     const fit = (f) => (D.fitWhole && D.fitWhole[f]) ? `class="slide contain" style="background:${D.fitWhole[f]}"` : `class="slide"`;
-    return `<section class="screen">
+    return `<section class="screen product">
       ${header("p:" + i + ":react", `Piece ${i + 1} of ${N}`)}
       <div class="carousel" data-carousel>${p.images.map((f, n) =>
         `<div ${fit(f)}><img src="${img(f)}" alt="${esc(p.name)} — image ${n + 1}" ${n ? 'loading="lazy"' : ""}></div>`).join("")}</div>
