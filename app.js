@@ -117,7 +117,6 @@
       <div class="carousel" data-carousel>${p.images.map((f, n) =>
         `<div ${fit(f)}><img src="${img(f)}" alt="${esc(p.name)} — image ${n + 1}" ${n ? 'loading="lazy"' : ""}></div>`).join("")}</div>
       <div class="dots">${p.images.map((_, n) => `<i class="${n ? "" : "on"}"></i>`).join("")}</div>
-      ${p.images.length > 1 ? `<p class="swipe-hint">Swipe for more →</p>` : ""}
       <div class="pinfo"><div class="name">${esc(p.name)}</div><p class="desc">${esc(p.desc)}</p></div>
       <p class="ask">Would you wear this?</p>
       <div class="btns">
