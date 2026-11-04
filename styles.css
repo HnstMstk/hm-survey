@@ -48,7 +48,7 @@ img{display:block;max-width:100%}
 @media (prefers-reduced-motion:reduce){.screen{animation:none}}
 
 /* textured red screens */
-.screen.red{background:var(--red) url(bg-texture.jpg) center/cover;}
+.screen.red{background:var(--red) url(bg-red.jpg) center top/cover;}
 
 /* ---------- header ---------- */
 .hdr{
@@ -219,7 +219,7 @@ textarea:focus,input:focus{border-color:var(--brown)}
 .red .btn{border-color:var(--ink);background:var(--cream);color:var(--brown)}
 .red .btn.dark{background:var(--brown);color:#fff;border-color:var(--brown)}
 /* thank-you screen: background exported straight from the Canva page (texture + bangle) */
-.screen.red.thanks{background:url(bg-thanks.jpg) top center/100% auto no-repeat, var(--red) url(bg-texture.jpg) center/cover}
+.screen.red.thanks{background:url(bg-thanks.jpg) top center/100% auto no-repeat, var(--red) url(bg-red.jpg) center top/cover}
 .thanks .spacer{height:calc(min(100vw, 430px) * 1.2506 - 136px);flex:none}
 .thanks h2{font-size:32px;line-height:1.06;font-weight:900;color:var(--ink);margin-top:36px;padding:0 36px}
 .thanks p{font-size:14px;line-height:1.4;color:var(--cream);margin-top:12px;padding:0 36px;max-width:300px}
