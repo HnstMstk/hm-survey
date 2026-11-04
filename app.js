@@ -84,7 +84,7 @@
 
   V.welcome = () => `
     <section class="screen red welcome">
-      <div class="ghostimg" style="background-image:url(${img("necklace-2-1.jpg")})"></div>
+      <div class="ghostimg" style="background-image:url(${img("welcome-ghost.jpg")})"></div>
       ${header("welcome", "", { noBar: true })}
       <img class="wm" src="${img("wordmark.jpg")}" alt="Honest Mistake">
       <div class="brackets">${BR_L}<ol><li>1.0 Honest Mistake</li><li>2.0 First look</li><li>3.0 We wanna know<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;what u think</li></ol>${BR_R}</div>
