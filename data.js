@@ -15,9 +15,12 @@ window.HM = {
   /* Where answers go: a Google Form linked to a Google Sheet.
      action = the form's ".../formResponse" address; entries = the form's field ids. */
   googleForm: {
-    action: "",
-    entries: { age: "", gender: "", p01: "", p02: "", p03: "", p04: "", p05: "", p06: "",
-               p07: "", p08: "", p09: "", p10: "", p11: "", p12: "", favourites: "", instagram: "", email: "" }
+    action: "https://docs.google.com/forms/d/e/1FAIpQLSefLqB4y8sOCHo-dGAuMaxKLGIi2xy5vwT4wO9rhlq1Jtrxiw/formResponse",
+    entries: { age: "entry.1918144299", gender: "entry.1933281923",
+               p01: "entry.210936047", p02: "entry.1583162127", p03: "entry.1122639933", p04: "entry.1577447190",
+               p05: "entry.529971921", p06: "entry.1067645831", p07: "entry.1287965784", p08: "entry.544695118",
+               p09: "entry.144624653", p10: "entry.941105402", p11: "entry.21730551", p12: "entry.697532893",
+               favourites: "entry.557555141", instagram: "entry.1260436815", email: "entry.1563139239" }
   },
 
   /* Fallback price ranges — only used if a piece has no "prices" of its own.
@@ -83,7 +86,7 @@ window.HM = {
       prices: { silver: ["EGP 3,500 – 4,500", "EGP 4,500 – 5,500", "EGP 5,500 – 6,500"], plated: ["EGP 1,800 – 2,300", "EGP 2,300 – 2,800", "EGP 2,800 – 3,300"] } }
   ],
 
-  ages: ["Under 20", "20-25", "26-30", "31-40", "40+"],
+  ages: ["Under 20", "20-25", "26-30", "31-36", "37+"],
   genders: ["A woman", "A man"],
   whyNot: ["Don't like the design", "Too bold / edgy for me", "Not into the finish", "Other"]
 };
