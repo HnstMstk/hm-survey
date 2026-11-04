@@ -34,10 +34,7 @@ window.HM = {
   fitWhole: {
     "bangle-1-2.jpg": "#000000",
     "ear-cuff-1-2.jpg": "#000000",
-    "earring-1-1.jpg": "#2c0500",
-    "earring-1-2.jpg": "#fef8fa",
     "necklace-1-2.jpg": "#2b0200",
-    "necklace-2-2.jpg": "#2f0300",
     "necklace-3-2.jpg": "#2c0500",
     "ring-1-2.jpg": "#2c0500",
     "ring-2-2.jpg": "#2c0500",
