@@ -33,7 +33,6 @@ window.HM = {
   /* Images that aren't portrait are shown whole (not cropped) on their own edge colour. */
   fitWhole: {
     "bangle-1-2.jpg": "#000000",
-    "bracelet-1-2.jpg": "#270402",
     "ear-cuff-1-2.jpg": "#000000",
     "earring-1-1.jpg": "#2c0500",
     "earring-1-2.jpg": "#fef8fa",
