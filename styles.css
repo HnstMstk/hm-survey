@@ -187,9 +187,12 @@ textarea:focus,input:focus{border-color:var(--brown)}
 .brackets svg{width:8px;height:57px;fill:var(--brown)}
 .brackets ol{list-style:none;font-size:8px;line-height:1.1;text-align:left;text-transform:uppercase;padding:0 4px}
 .intro{
-  position:relative;margin:56px auto 0;padding:0 46px;
-  font-size:17px;line-height:1.1;font-weight:700;color:var(--brown);
+  position:relative;margin:0 auto;text-align:center;
+  font-size:14.2px;line-height:1.063;font-weight:700;color:var(--brown);
 }
+.intro.i1{margin-top:41px;max-width:270px}
+.intro.i2{margin-top:21px;max-width:215px}
+.intro.i3{margin-top:30px;font-weight:400;color:var(--cream)}
 .intro em{font-style:normal;color:var(--cream)}
 .tagline{position:relative;margin-top:auto;font-size:14px;letter-spacing:.02em}
 .burst{position:relative;width:132px;height:98px;margin:18px auto 0;display:grid;place-items:center}
