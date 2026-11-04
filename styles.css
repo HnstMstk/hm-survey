@@ -230,10 +230,10 @@ textarea:focus,input:focus{border-color:var(--brown)}
 }
 
 /* product screens: bigger photos, smaller question + buttons, more air under the name */
-.product .carousel{margin-top:8px}
-.product .slide{flex:0 0 calc(100% - 20px);aspect-ratio:294/362}
+.product .carousel{margin-top:8px;padding:0 var(--inset);scroll-padding:0 var(--inset)}
+.product .slide{flex:0 0 100%;aspect-ratio:294/362}
 .product .pinfo .desc{font-size:14px;margin-top:10px}
-.product .pinfo{padding-top:26px}
+.product .pinfo{padding:26px var(--inset) 0}
 .product .ask{font-size:16px;margin:auto 0 10px;padding-top:16px}
 .product .btns{gap:6px}
 .product .btn{height:38px;font-size:13px}
