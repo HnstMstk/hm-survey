@@ -86,8 +86,10 @@
       <div class="ghostimg" style="background-image:url(${img("necklace-2-1.jpg")})"></div>
       ${header("welcome", "", { noBar: true })}
       <img class="wm" src="${img("wordmark.jpg")}" alt="Honest Mistake">
-      <div class="brackets">${BR_L}<ol><li>01 Honest Mistake</li><li>02 First look</li><li>03 We wanna know<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;what u think</li></ol>${BR_R}</div>
-      <p class="intro"><em>We've</em> been working on these <em>designs</em> for a while, and we want the <em>final collection</em> to be shaped by <em>real opinions.</em><br><br>We'd really appreciate your <em>honest thoughts</em>.<br>Takes about 3 minutes.</p>
+      <div class="brackets">${BR_L}<ol><li>1.0 Honest Mistake</li><li>2.0 First look</li><li>3.0 We wanna know<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;what u think</li></ol>${BR_R}</div>
+      <p class="intro i1">We've been working on these designs for a while, and we want the final collection to be shaped by <em>real opinions</em>.</p>
+      <p class="intro i2">We'd really appreciate your honest thoughts</p>
+      <p class="intro i3">Takes about 3 minutes.</p>
       <p class="tagline">BE HONEST. WE CAN TAKE IT.</p>
       <button class="burst" data-act="start">${BURST}<span>Start</span></button>
     </section>`;
