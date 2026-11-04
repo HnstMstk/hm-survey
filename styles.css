@@ -241,3 +241,4 @@ textarea:focus,input:focus{border-color:var(--brown)}
 .product .btns{gap:6px}
 .product .btn{height:38px;font-size:13px}
 .slide img[src$="bracelet-1-2.jpg"]{object-position:100% 50%}
+.slide img[src$="earring-1-2.jpg"]{object-position:62% 50%}
